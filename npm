@@ -1,0 +1,14 @@
+To install npm modules :
+Locally-We can use in current project only.
+npm i <package name>
+Globally-We can use it in any project.
+npm install -g <package name>
+sudo npm install -g <package name>(for mac
+
+package.json file: stores important data about the current project 
+manual approach is to create package.json in root and create properties 
+OR step by step npm init 
+npm init -y
+In package.json
+We have dependencies property(object) and inside that object we have an package called Lodash
+ 
